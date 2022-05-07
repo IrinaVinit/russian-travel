@@ -1,0 +1,14 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
+    list-style-type: none;
+    font-family: 'Inter';
+    margin: 0;
+}
+
+@media screen and (max-width: 610px) {
+    .photo-grid {
+        gap: 12px;
+    }
+}

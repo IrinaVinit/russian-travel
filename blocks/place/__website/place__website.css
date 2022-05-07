@@ -1,0 +1,12 @@
+.place__website {
+    align-self: end;
+
+}
+
+@media screen and (max-width: 610px) {
+    .place__website {
+        grid-column: 1/2;
+        padding: 0 16px
+        
+    }
+}
