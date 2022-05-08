@@ -6,13 +6,13 @@
 }
  
 @media screen and (max-width: 860px) {    
-    .content__section {
+    .content__part {
         padding: 0 24px;
     }
 }
 
 @media screen and (max-width: 610px) {        
-    .content__section {
+    .content__part {
         padding: 0 16px;
     }
 }
