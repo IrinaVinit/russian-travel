@@ -1,7 +1,23 @@
 .intro {
-    
     color: #FFFFFF;
     font-family: Inter, Arial, sans-serif;
     font-style: normal;
+    margin: 0 auto;
+    padding-top: 92px;
+    padding-bottom: 92px;
 
+}
+
+@media screen and (max-width: 860px) {
+    .intro {
+        padding-top: 88px;
+        padding-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .intro {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
 }
